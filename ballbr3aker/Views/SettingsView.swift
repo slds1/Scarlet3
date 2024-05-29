@@ -142,7 +142,7 @@ struct SettingsView: View {
                             trigger_memmove_oob_copy()
                         }
                         Button("Сервер с iCloud", systemImage: "cloud") {
-                            UIApplication.shared.open(URL(string: "https://discord.gg/Rse9ZBZC")!)
+                            UIApplication.shared.open(URL(string: "ПУСТО!!! ЫГЫГЫГЫГГЫ")!)
                         } // https://discord.gg/Rse9ZBZC
                     }
                 } else {
