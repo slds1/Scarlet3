@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D95F6382BFFB18E00124413 /* Code-Pro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D95F6372BFFB18E00124413 /* Code-Pro-Black.ttf */; };
+		5D996B6B2C04FEF900581242 /* CertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D996B6A2C04FEF900581242 /* CertView.swift */; };
+		5DC048402BFA51C600015360 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC0483F2BFA51C600015360 /* Stickers.xcassets */; };
+		5DC048442BFA51C600015360 /* ScarletStickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5DC0483D2BFA51C200015360 /* ScarletStickers.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5DC048842BFFAD5E00015360 /* montserrat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC048832BFFAD5D00015360 /* montserrat.ttf */; };
+		5DFCD09F2BF9236500ABCC57 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFCD09E2BF9236500ABCC57 /* SettingsView.swift */; };
 		6DFA97F32A29317300C69EC6 /* ballbr3akerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA97F22A29317300C69EC6 /* ballbr3akerApp.swift */; };
 		6DFA97F52A29317300C69EC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA97F42A29317300C69EC6 /* ContentView.swift */; };
 		6DFA97F72A29317500C69EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DFA97F62A29317500C69EC6 /* Assets.xcassets */; };
@@ -16,8 +22,45 @@
 		6DFA980D2A2A13B100C69EC6 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA980C2A2A13B100C69EC6 /* CreditsView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5DC048422BFA51C600015360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DFA97E72A29317300C69EC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DC0483C2BFA51C200015360;
+			remoteInfo = ScarletStickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5DC0483A2BFA4D1000015360 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5DC048442BFA51C600015360 /* ScarletStickers.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		6DFA97EF2A29317300C69EC6 /* ballsbr3aker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ballsbr3aker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D95F6372BFFB18E00124413 /* Code-Pro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Code-Pro-Black.ttf"; sourceTree = "<group>"; };
+		5D996B6A2C04FEF900581242 /* CertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertView.swift; sourceTree = "<group>"; };
+		5DC0481D2BFA08C900015360 /* Scarlet 3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Scarlet 3.entitlements"; sourceTree = "<group>"; };
+		5DC048232BFA4D0800015360 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		5DC048252BFA4D0900015360 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		5DC048362BFA4D1000015360 /* ScarletWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScarletWidgetsExtension.entitlements; sourceTree = "<group>"; };
+		5DC0483D2BFA51C200015360 /* ScarletStickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ScarletStickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC0483F2BFA51C600015360 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		5DC048412BFA51C600015360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC048482BFA6B8E00015360 /* Scarlet-3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Scarlet-3-Info.plist"; sourceTree = "<group>"; };
+		5DC0487F2BFE5AF300015360 /* HUETAExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HUETAExtension.entitlements; sourceTree = "<group>"; };
+		5DC048832BFFAD5D00015360 /* montserrat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat.ttf; sourceTree = "<group>"; };
+		5DFCD09E2BF9236500ABCC57 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6DFA97EF2A29317300C69EC6 /* Scarlet 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scarlet 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DFA97F22A29317300C69EC6 /* ballbr3akerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ballbr3akerApp.swift; sourceTree = "<group>"; };
 		6DFA97F42A29317300C69EC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6DFA97F62A29317500C69EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,10 +83,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DC0483E2BFA51C200015360 /* ScarletStickers */ = {
+			isa = PBXGroup;
+			children = (
+				5DC0483F2BFA51C600015360 /* Stickers.xcassets */,
+				5DC048412BFA51C600015360 /* Info.plist */,
+			);
+			path = ScarletStickers;
+			sourceTree = "<group>";
+		};
+		5DC0484C2BFE4BA500015360 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				5D95F6372BFFB18E00124413 /* Code-Pro-Black.ttf */,
+				5DC048832BFFAD5D00015360 /* montserrat.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
 		6DFA97E62A29317300C69EC6 = {
 			isa = PBXGroup;
 			children = (
+				5DC0487F2BFE5AF300015360 /* HUETAExtension.entitlements */,
+				5DC048482BFA6B8E00015360 /* Scarlet-3-Info.plist */,
+				5DC048362BFA4D1000015360 /* ScarletWidgetsExtension.entitlements */,
+				5DC0481D2BFA08C900015360 /* Scarlet 3.entitlements */,
 				6DFA97F12A29317300C69EC6 /* ballbr3aker */,
+				5DC0483E2BFA51C200015360 /* ScarletStickers */,
 				6DFA97F02A29317300C69EC6 /* Products */,
 				6DFA98092A2A130300C69EC6 /* Frameworks */,
 			);
@@ -52,7 +118,8 @@
 		6DFA97F02A29317300C69EC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DFA97EF2A29317300C69EC6 /* ballsbr3aker.app */,
+				6DFA97EF2A29317300C69EC6 /* Scarlet 3.app */,
+				5DC0483D2BFA51C200015360 /* ScarletStickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +127,7 @@
 		6DFA97F12A29317300C69EC6 /* ballbr3aker */ = {
 			isa = PBXGroup;
 			children = (
+				5DC0484C2BFE4BA500015360 /* font */,
 				6DFA98052A2A10CF00C69EC6 /* jelbrek */,
 				6DFA98002A29323800C69EC6 /* Views */,
 				6DFA97F22A29317300C69EC6 /* ballbr3akerApp.swift */,
@@ -82,6 +150,8 @@
 			children = (
 				6DFA97F42A29317300C69EC6 /* ContentView.swift */,
 				6DFA980C2A2A13B100C69EC6 /* CreditsView.swift */,
+				5DFCD09E2BF9236500ABCC57 /* SettingsView.swift */,
+				5D996B6A2C04FEF900581242 /* CertView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -99,6 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				6DFA980A2A2A130300C69EC6 /* IOKit.framework */,
+				5DC048232BFA4D0800015360 /* WidgetKit.framework */,
+				5DC048252BFA4D0900015360 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,21 +178,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DFA97EE2A29317300C69EC6 /* ballsbr3aker */ = {
+		5DC0483C2BFA51C200015360 /* ScarletStickers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DFA97FD2A29317500C69EC6 /* Build configuration list for PBXNativeTarget "ballsbr3aker" */;
+			buildConfigurationList = 5DC048452BFA51C600015360 /* Build configuration list for PBXNativeTarget "ScarletStickers" */;
 			buildPhases = (
-				6DFA97EB2A29317300C69EC6 /* Sources */,
-				6DFA97EC2A29317300C69EC6 /* Frameworks */,
-				6DFA97ED2A29317300C69EC6 /* Resources */,
+				5DC0483B2BFA51C200015360 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ballsbr3aker;
+			name = ScarletStickers;
+			productName = ScarletStickers;
+			productReference = 5DC0483D2BFA51C200015360 /* ScarletStickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+		6DFA97EE2A29317300C69EC6 /* Scarlet 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DFA97FD2A29317500C69EC6 /* Build configuration list for PBXNativeTarget "Scarlet 3" */;
+			buildPhases = (
+				6DFA97EB2A29317300C69EC6 /* Sources */,
+				6DFA97EC2A29317300C69EC6 /* Frameworks */,
+				6DFA97ED2A29317300C69EC6 /* Resources */,
+				5DC0483A2BFA4D1000015360 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DC048432BFA51C600015360 /* PBXTargetDependency */,
+			);
+			name = "Scarlet 3";
 			productName = ballbr3aker;
-			productReference = 6DFA97EF2A29317300C69EC6 /* ballsbr3aker.app */;
+			productReference = 6DFA97EF2A29317300C69EC6 /* Scarlet 3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,9 +219,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					5DC0483C2BFA51C200015360 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					6DFA97EE2A29317300C69EC6 = {
 						CreatedOnToolsVersion = 14.3;
 						LastSwiftMigration = 1430;
@@ -146,24 +238,36 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 6DFA97E62A29317300C69EC6;
 			productRefGroup = 6DFA97F02A29317300C69EC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DFA97EE2A29317300C69EC6 /* ballsbr3aker */,
+				6DFA97EE2A29317300C69EC6 /* Scarlet 3 */,
+				5DC0483C2BFA51C200015360 /* ScarletStickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5DC0483B2BFA51C200015360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC048402BFA51C600015360 /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DFA97ED2A29317300C69EC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6DFA97FA2A29317500C69EC6 /* Preview Assets.xcassets in Resources */,
+				5DC048842BFFAD5E00015360 /* montserrat.ttf in Resources */,
 				6DFA97F72A29317500C69EC6 /* Assets.xcassets in Resources */,
+				5D95F6382BFFB18E00124413 /* Code-Pro-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DFCD09F2BF9236500ABCC57 /* SettingsView.swift in Sources */,
 				6DFA98082A2A10E100C69EC6 /* POC.m in Sources */,
+				5D996B6B2C04FEF900581242 /* CertView.swift in Sources */,
 				6DFA980D2A2A13B100C69EC6 /* CreditsView.swift in Sources */,
 				6DFA97F52A29317300C69EC6 /* ContentView.swift in Sources */,
 				6DFA97F32A29317300C69EC6 /* ballbr3akerApp.swift in Sources */,
@@ -183,7 +289,63 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5DC048432BFA51C600015360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DC0483C2BFA51C200015360 /* ScarletStickers */;
+			targetProxy = 5DC048422BFA51C600015360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		5DC048462BFA51C600015360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RP69Z7JXXV;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScarletStickers/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salupovteam.scarlet3.ScarletStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DC048472BFA51C600015360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RP69Z7JXXV;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScarletStickers/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salupovteam.scarlet3.ScarletStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6DFA97FB2A29317500C69EC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -301,31 +463,35 @@
 		6DFA97FE2A29317500C69EC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Scarlet 3.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ballbr3aker/Preview Content\"";
-				DEVELOPMENT_TEAM = HD373A4P3H;
+				DEVELOPMENT_TEAM = RP69Z7JXXV;
 				ENABLE_PREVIEWS = YES;
 				GCC_INPUT_FILETYPE = automatic;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scarlet-3-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = org.haxi0.ballbr3aker;
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salupovteam.scarlet3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "ballbr3aker/jelbrek/ballbr3aker-Bridging-Header.h";
@@ -338,31 +504,35 @@
 		6DFA97FF2A29317500C69EC6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Scarlet 3.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ballbr3aker/Preview Content\"";
-				DEVELOPMENT_TEAM = HD373A4P3H;
+				DEVELOPMENT_TEAM = RP69Z7JXXV;
 				ENABLE_PREVIEWS = YES;
 				GCC_INPUT_FILETYPE = automatic;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scarlet-3-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = org.haxi0.ballbr3aker;
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salupovteam.scarlet3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "ballbr3aker/jelbrek/ballbr3aker-Bridging-Header.h";
@@ -374,6 +544,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5DC048452BFA51C600015360 /* Build configuration list for PBXNativeTarget "ScarletStickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC048462BFA51C600015360 /* Debug */,
+				5DC048472BFA51C600015360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6DFA97EA2A29317300C69EC6 /* Build configuration list for PBXProject "ballsbr3aker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -383,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DFA97FD2A29317500C69EC6 /* Build configuration list for PBXNativeTarget "ballsbr3aker" */ = {
+		6DFA97FD2A29317500C69EC6 /* Build configuration list for PBXNativeTarget "Scarlet 3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DFA97FE2A29317500C69EC6 /* Debug */,

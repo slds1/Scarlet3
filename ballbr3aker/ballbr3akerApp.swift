@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@main
 struct ballbr3akerApp: App {
     var body: some Scene {
         WindowGroup {
